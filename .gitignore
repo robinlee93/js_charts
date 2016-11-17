@@ -10,7 +10,7 @@ Thumbs.db
 
 # Spoiler files #
 hidden
-./main-final.js
-./nba-team-stats.json
-./styles-final.css
-./index-final.html
+/main-finaljs
+/nba-team-statsjson
+/styles-finalcss
+/index-final.html
