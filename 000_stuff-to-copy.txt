@@ -34,3 +34,6 @@ BASIC HIGHCHARTS CHART OBJECT
           data: [7.0, 6.9, 9.5, 9.1, 18.2]
       }]
   }
+
+  CDN JSON
+    https://rawgit.com/jmhol9/excel-to-html-starter/master/nba-team-stats.json
