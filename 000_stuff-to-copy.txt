@@ -1,5 +1,5 @@
 WEB FONTS
-  <link href="//fonts.googleapis.com/css?family=Lato:900|Crimson+Text:300" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:900|Crimson+Text:300" rel="stylesheet" type="text/css">
 
 
 JQUERY
@@ -36,4 +36,4 @@ BASIC HIGHCHARTS CHART OBJECT
   }
 
   CDN JSON
-    https://rawgit.com/jmhol9/excel-to-html-starter/master/nba-team-stats.json
+    https://cdn.rawgit.com/jmhol9/excel-to-html-starter/master/nba-team-stats.json
