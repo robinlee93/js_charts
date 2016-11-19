@@ -1,11 +1,52 @@
+
 <html>
   <head>
+	  <!-- basic html -->
     <title></title>
+    <link href="http://fonts.googleapis.com/css?family=Lato:900|Crimson+Text:300" rel="stylesheet" type="text/css">
+    <!-- use web font to make it much better -->
+
+    <!-- load a jquery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+
+
+    <!-- we want to style h1 -->
+    <style type="text/css"> 
+    	.article__title{
+    		font-size: 32 px;
+    		font-family: "Lato", sans-serif; 
+    		/*fall back to sans-serif if Lato is not available*/
+    		font-weight: 900;
+
+    	}
+
+    	#chart-01 {
+    		font-family: "Crimson Text", serif;
+    		font-size: 16px;
+
+    	}
+    	/* we want to make the text more in the middle. put it in container*/
+    	.container {
+    		margin: 0 auto;
+    		max-width: 640px;
+
+    	}
+    </style>
+
   </head>
   <body>
-    <h1 class="article__title">Real Simple Webpage</h1>
-    <div id="chart-01">An interactive chart, someday.</div>
+  	<div class="container">
+  		<h1 class="article__title">Real Simple Webpage</h1>
+		<div id="chart-01">An interactive chart, someday.</div>
+
+		<p>
+			fdsjfl;sdfjksl;fs
+		</p>
+		<p>
+			This is a link: <a href="http://google.com">link_google</a>
+		</p>
+  	</div>
     <script src="./main.js"></script>
   </body>
 </html>
